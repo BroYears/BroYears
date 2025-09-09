@@ -14,7 +14,7 @@
 
 - **Language**: `Java`
 - **Framework & Library**: `Spring Boot`, `Spring Data JPA`, `QueryDSL`, `Spring Security`
-- **Database**: `MySQL`, `MariaDB`, `Redis`, 'PostgreSQL'
+- **Database**: `MySQL`, `MariaDB`, `Redis`, `PostgreSQL`
 - **DevOps**: `AWS (EC2, S3, RDS)`, `Docker`, `Nginx`
 - **Tools**: `Git`, `GitHub`, `IntelliJ`
 
