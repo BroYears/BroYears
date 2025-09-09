@@ -1,5 +1,5 @@
 # 👋 안녕하세요! 진취적인 백엔드 개발자 김형년입니다.
-문제 해결을 즐기고, 더 나은 코드를 통해 비즈니스 가치를 만드는 것에 집중합니다.
+문제 해결을 즐기고, 더 나은 코드를 통해 비즈니스 가치를 만드는 것에 집중합니다.<br>
 새로운 기술을 배우고 동료들과 지식을 공유하는 것을 좋아합니다.
 
 <br>
@@ -17,14 +17,6 @@
 - **Database**: `MySQL`, `MariaDB`, `Redis`, 'PostgreSQL'
 - **DevOps**: `AWS (EC2, S3, RDS)`, `Docker`, `Nginx`
 - **Tools**: `Git`, `GitHub`, `IntelliJ`
-
-<br>
-
-## 📊 깃허브 활동 통계 (GitHub Stats)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="github stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" alt="top languages"/>
-</p>
 
 <br>
 
