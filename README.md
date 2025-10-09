@@ -12,11 +12,11 @@
   <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white">
 </p>
 
-- **Language**: `Java`, `Java Script`, `CSS`, `HTML5`
+- **Language**: `Java`, `Java Script`, `CSS`, `HTML5`, `SQL`
 - **Framework & Library**: `Spring Boot`, `Spring Data JPA`, `QueryDSL`, `Spring Security`
-- **Database**: `MySQL`, `MariaDB`, `Redis`, `PostgreSQL`
+- **Database**: `MySQL`, `MariaDB`, `Redis`, `PostgreSQL`, `Oracle`
 - **DevOps**: `AWS (EC2, S3, RDS)`, `Docker`, `Nginx`
-- **Tools**: `Git`, `GitHub`, `IntelliJ`
+- **Tools**: `Git`, `GitHub`, `IntelliJ`, `Eclipse`
 
 <br>
 
