@@ -22,4 +22,3 @@
 
 ## 📫 연락처 (Contact)
 - **Email**: [micael456@naver.com](micael456@naver.com)
-- **LinkedIn**: [your-linkedin-profile](https://www.linkedin.com/in/%ED%98%95%EB%85%84-%EA%B9%80-30085437b/)
