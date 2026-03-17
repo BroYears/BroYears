@@ -21,4 +21,4 @@
 <br>
 
 ## 📫 연락처 (Contact)
-- **Email**: [micael456@naver.com](micael456@naver.com)
+- **Email**: [web@educompany.co.kr](web@educompany.co.kr)
