@@ -2,7 +2,7 @@
 - **Language**: `Java`, `JavaScript`, `TypeScript`, `HTML/CSS`
 - **Framework & Library**: `Spring Boot`, `Spring Data JPA`, `Spring Security`, `React`, `WebSocket`
 - **Database**: `PostgreSQL`, `Oracle`, `Valkey`
-- **Infra & DevOps**: `AWS (EC2, S3, RDS)`, `Docker`, `Nginx`, `ELK Stack`
+- **Infra & DevOps**: `AWS (EC2, S3, RDS)`, `Docker`, `Nginx`, `ELK`
 - **Tools**: `Git`, `GitHub`, `Notion`
 <br>
 
