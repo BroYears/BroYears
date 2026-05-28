@@ -9,4 +9,4 @@
 Service: https://allteachers.co.kr (Active)
 
 ## 📫 연락처 (Contact)
-- **Email**: [web@educompany.co.kr](web@educompany.co.kr)
+- **Email**: [micael456@naver.com](micael456@naver.com)
