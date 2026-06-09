@@ -1,18 +1,12 @@
 <div align="center">
 
-<!-- 상단 비주얼 헤더 배너 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=HyeongNyeon%20Kim&subText=Full-Stack%20%26%20Full-Cycle%20Developer&fontSize=50&subFontSize=20&subTextActive=true" width="100%" />
+<!-- 상단 비주얼 헤더 배너 (특수문자 %26 -> and 로 변경) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=HyeongNyeon%20Kim&subText=Full-Stack%20and%20Full-Cycle%20Developer&fontSize=50&subFontSize=20&subTextActive=true" width="100%" />
 
 <!-- 타이핑 애니메이션 효과 -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Full-Cycle+Creator;Spring+Boot+%26+React+Specialist" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Full-Cycle+Creator;Spring+Boot+and+React+Specialist" alt="Typing SVG" />
 
 <br>
-
-### 🛠️ 기술로 문제를 해결하고 비즈니스 가치를 창출하는 개발자 김형년입니다.
-기획(PM)부터 아키텍처 설계, 백엔드/프론트엔드 구현, 클라우드 인프라 구축, 배포 및 실제 서비스 운영까지  
-전 과정을 주도하며 책임지는 **'Full-Cycle 개발자'**로서 끊임없이 성장하고 있습니다.
-
----
 
 ## 📊 GitHub Stats
 
@@ -24,13 +18,23 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BroYears&theme=tokyonight" alt="GitHub Streak" height="145" />
 </p>
 
+</div>
+
+<!-- 여기서 centering div를 완전히 닫아 마크다운 문법이 에러 없이 작동하도록 합니다. -->
+
+---
+
+## 👋 소개
+### 기술로 문제를 해결하고 비즈니스 가치를 창출하는 개발자 김형년입니다.
+기획(PM)부터 아키텍처 설계, 백엔드/프론트엔드 구현, 클라우드 인프라 구축, 배포 및 실제 서비스 운영까지 서비스의 전체 라이프사이클을 주도하며 책임지는 **'Full-Cycle 개발자'**로서 끊임없이 성장하고 있습니다.
+
 ---
 
 ## 🌟 Core Competencies
 
-*   **Product Development**: 비즈니스 요구사항을 분석하여 기획부터 최종 배포까지 제품 전체 라이프사이클을 리드
-*   **Scalable Backend**: Java 21 & Spring Boot 기반의 견고하고 확장성 있는 서버 아키텍처 설계 및 데이터베이스 최적화
-*   **User-Centered Frontend**: React와 TypeScript를 활용한 컴포넌트 중심의 직관적이고 반응성 높은 UI/UX 구현
+* 💡 **Product Development**: 비즈니스 요구사항을 분석하여 기획부터 최종 배포까지 제품 전체 라이프사이클을 리드
+* ⚙️ **Scalable Backend**: Java 21 & Spring Boot 기반의 견고하고 확장성 있는 서버 아키텍처 설계 및 데이터베이스 최적화
+* 🎨 **User-Centered Frontend**: React와 TypeScript를 활용한 컴포넌트 중심의 직관적이고 반응성 높은 UI/UX 구현
 
 ---
 
@@ -38,18 +42,18 @@
 
 ### 🎓 **[AllTeachers](https://allteachers.co.kr) (Active)**
 > **B2B 동영상 LMS(학습 관리 시스템) 플랫폼**
-*   **역할**: 1인 총괄 개발
-*   **개발 및 운영**: 비즈니스 요구사항 분석부터 DB 설계, 백엔드/프론트엔드 구현, AWS 클라우드 인프라 구축 및 배포 완료
-*   **주요 성과**: 안정적인 상용 서비스 런칭 및 운영 중이며, 실사용자 피드백을 기반으로 한 지속적 기능 업데이트 수행
-*   **기술**: `Java 21`, `Spring Boot`, `React`, `AWS (EC2, S3, MediaConvert)`, `Cloudflare (R2, CDN)`, `Docker`
+* **역할**: 1인 총괄 개발
+* **개발 및 운영**: 비즈니스 요구사항 분석부터 DB 설계, 백엔드/프론트엔드 구현, AWS 클라우드 인프라 구축 및 배포 완료
+* **주요 성과**: 안정적인 상용 서비스 런칭 및 운영 중이며, 실사용자 피드백을 기반으로 한 지속적 기능 업데이트 수행
+* **기술**: `Java 21`, `Spring Boot`, `React`, `AWS (EC2, S3, MediaConvert)`, `Cloudflare (R2, CDN)`, `Docker`
 
 <br>
 
 ### 🎯 **[JobCatchers](https://github.com/BroYears/jobcatchers) (In Progress)**
 > **B2B 멘토·멘티 매칭 및 인턴십 시스템 플랫폼**
-*   **역할**: 프로젝트 리드 & 백엔드 아키텍트
-*   **개발 내용**: 전체 프로젝트 리딩 및 DB 아키텍처 설계 주도, 대규모 매칭 알고리즘 구현을 위한 백엔드 시스템 개발 집중
-*   **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`
+* **역할**: 프로젝트 리드 & 백엔드 아키텍트
+* **개발 내용**: 전체 프로젝트 리딩 및 DB 아키텍처 설계 주도, 대규모 매칭 알고리즘 구현을 위한 백엔드 시스템 개발 집중
+* **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`
 
 ---
 
@@ -77,6 +81,4 @@
 
 ## 📫 Contact
 
-*   **Email**: [micael456@naver.com](mailto:micael456@naver.com)
-
-</div>
+* **Email**: [micael456@naver.com](mailto:micael456@naver.com)
