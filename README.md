@@ -1,42 +1,102 @@
-# 👋 안녕하세요, 풀스택 개발자 김형년입니다.
+# 안녕하세요, 비즈니스 가치를 창출하는 풀스택 개발자 김형년입니다! 👋
 
-비즈니스 문제를 기술로 해결하며, **기획(PM)부터 아키텍처 설계, 인프라 구축, 배포 및 서비스 운영**까지 전 과정을 주도하는 풀스택 개발자입니다.  
-현재 B2B 교육 플랫폼을 성공적으로 론칭하여 운영 중이며, 확장성 있고 안정적인 시스템을 구축하는 데 집중하고 있습니다.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=250&section=header&text=HyoungNyeon's%20DevSpace&fontSize=70&animation=fadeIn&fontAlignY=38" alt="HyoungNyeon's DevSpace Header" />
+</div>
 
----
+<br>
 
-## 🚀 서비스 운영 및 프로젝트 (Services & Projects)
-
-### 🎓 AllTeachers (Active)
-- **설명**: B2B 동영상 LMS(학습 관리 시스템) 플랫폼
-- **역할**: 1인 총괄 개발 (PM, 아키텍처 설계, 백엔드/프론트엔드 구현, 인프라 구축 및 배포)
-- **바로가기**: 🔗 [allteachers.co.kr](https://allteachers.co.kr)
-
-### 🎯 JobCatchers (In Progress)
-- **설명**: B2B 멘토·멘티 매칭 및 인턴십 시스템 플랫폼
-- **역할**: 1인 총괄 개발 및 DB 아키텍처 설계
+안녕하세요! 기술로 세상의 문제를 해결하고, 사용자 중심의 서비스를 만들어가고자 하는 풀스택 개발자 김형년입니다.  
+**기획(PM)부터 아키텍처 설계, 인프라 구축, 배포 및 실제 서비스 운영**까지 전 과정을 주도하는 'Full-Cycle 개발자'의 역량을 갖추고 있습니다.
 
 ---
 
-## 🛠️ 기술 스택 (Tech Stacks)
+## 🌟 Key Competencies
 
-### 💻 Back-end
-<img src="https://img.shields.io/badge/Java_21-007396?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Batch-6DB33F?style=flat-square&logo=spring&logoColor=white"/> `QueryDSL` `WebSocket`
+<div align="center">
+  <img src="https://img.shields.io/badge/Product_Development-Full%20Lifecycle-2ECC71?style=for-the-badge&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scaleable_Backend-AWS_/_Java_/_Spring_Boot-3498DB?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/User_Centered_Frontend-React_/_TypeScript-F1C40F?style=for-the-badge&logo=react&logoColor=white"/>
+</div>
 
-### 🎨 Front-end
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/> `TanStack Query` `Zustand`
+---
 
-### 🗄️ Database & Cache
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Valkey-000000?style=flat-square&logo=valkey&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+## 🚀 Services & Projects
 
-### ☁️ Infra & DevOps
-<img src="https://img.shields.io/badge/AWS_(EC2_/_S3_/_MediaConvert)-232F3E?style=flat-square&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudflare_(R2_/_CDN)-F38020?style=flat-square&logo=cloudflare&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/> `ELK`
+### [🎓 AllTeachers](https://allteachers.co.kr) (Active)
+> **B2B 동영상 LMS(학습 관리 시스템) 플랫폼**
+>
+> 1인 총괄 개발로서 비즈니스 요구사항 분석, 아키텍처 설계, 백엔드/프론트엔드 구현, 클라우드 인프라 구축 및 배포를 완료했습니다. 현재 안정적으로 서비스를 운영하며 사용자 피드백을 기반으로 지속적인 개선 작업을 수행하고 있습니다.
 
-### 🛠️ Tools
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
+### [🎯 JobCatchers](https://github.com/your-id/jobcatchers) (In Progress)
+> **B2B 멘토·멘티 매칭 및 인턴십 시스템 플랫폼**
+>
+> 전체 프로젝트 리딩 및 DB 아키텍처 설계를 주도하며, 대규모 매칭 알고리즘 구현을 위한 백엔드 시스템 개발에 집중하고 있습니다.
+
+---
+
+## 🛠️ Tech Stacks
+
+<div align="center">
+
+### Back-end
+<img src="https://img.shields.io/badge/Java_21-007396?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Batch-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/QueryDSL-00A9E0?style=for-the-badge&logo=spring&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebSocket-000000?style=for-the-badge&logo=webrtc&logoColor=white"/>
+
+### Front-end
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=tanstack-query&logoColor=white"/>
+<img src="https://img.shields.io/badge/Zustand-EF2D5E?style=for-the-badge&logo=zustand&logoColor=white"/>
+
+### Database & Cache
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Valkey-000000?style=for-the-badge&logo=valkey&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
+
+### Infra & DevOps
+<img src="https://img.shields.io/badge/AWS_(EC2_/_S3_/_MediaConvert)-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudflare_(R2_/_CDN)-F38020?style=for-the-badge&logo=cloudflare&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white"/>
+
+### Tools
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white"/>
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+
+</div>
+
+---
+
+## 📈 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=your-id&show_icons=true&theme=nord" alt="HyoungNyeon's GitHub Stats"/>
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-id&layout=compact&theme=nord" alt="HyoungNyeon's Top Languages"/>
+</div>
 
 ---
 
 ## 📫 연락처 (Contact)
-- **Email**: ✉️ [micael456@naver.com](mailto:micael456@naver.com)
-- **GitHub**: 🐙 [github.com/your-id](https://github.com/your-id) *(본인 아이디로 변경)*
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Email-micael456@naver.com-C23531?style=for-the-badge&logo=maildotru&logoColor=white&link=mailto:micael456@naver.com"/>
+  <a href="https://github.com/your-id" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-your--id-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=100&section=footer&animation=fadeIn" alt="HyoungNyeon's DevSpace Footer" />
+</div>
