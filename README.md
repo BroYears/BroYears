@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- 상단 비주얼 헤더 배너 (특수문자 %26 -> and 로 변경) -->
+<!-- 상단 비주얼 헤더 배너 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=HyeongNyeon%20Kim&subText=Full-Stack%20and%20Full-Cycle%20Developer&fontSize=50&subFontSize=20&subTextActive=true" width="100%" />
 
 <!-- 타이핑 애니메이션 효과 -->
@@ -10,12 +10,13 @@
 
 ## 📊 GitHub Stats
 
+<!-- 700px 너비의 공헌도 그래프 카드 -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BroYears&theme=tokyonight" alt="Profile Details" width="100%" />
+
+<!-- 350px 너비의 카드 2개를 나란히 배치 -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BroYears&show_icons=true&theme=tokyonight&locale=en" alt="HyeongNyeon's GitHub stats" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BroYears&layout=compact&theme=tokyonight&locale=en" alt="Top Languages" height="155" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BroYears&theme=tokyonight" alt="GitHub Streak" height="145" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BroYears&theme=tokyonight" alt="Stats" width="49.5%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BroYears&theme=tokyonight" alt="Languages" width="49.5%" />
 </p>
 
 </div>
