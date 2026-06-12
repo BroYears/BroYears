@@ -44,7 +44,7 @@
 ### 🎓 **[AllTeachers](https://allteachers.co.kr) (Active)**
 > **B2B 동영상 LMS(학습 관리 시스템) 플랫폼**
 * **역할**: 1인 총괄 개발
-* **개발 및 운영**: 비즈니스 요구사항 분석부터 DB 설계, 백엔드/프론트엔드 구현, AWS 클라우드 인프라 구축 및 배포 완료
+* **개발 및 운영**: 비즈니스 요구사항 분석부터 DB 설계, 백엔드/프론트엔드 구현, AWS 클라우드 인프라 구축 및 배포 완료, Frontend 코드 마이그레이션
 * **주요 성과**: 안정적인 상용 서비스 런칭 및 운영 중이며, 실사용자 피드백을 기반으로 한 지속적 기능 업데이트 수행
 * **기술**: `Java 21`, `Spring Boot`, `React`, `AWS (EC2, S3, MediaConvert)`, `Cloudflare (R2, CDN)`, `Docker`
 
@@ -52,9 +52,9 @@
 
 ### 🎯 **[JobCatchers](https://github.com/BroYears/jobcatchers) (In Progress)**
 > **B2B 멘토·멘티 매칭 및 인턴십 시스템 플랫폼**
-* **역할**: 프로젝트 리드 & 백엔드 아키텍트
+* **역할**: 1인 총괄 개발
 * **개발 내용**: 전체 프로젝트 리딩 및 DB 아키텍처 설계 주도, 대규모 매칭 알고리즘 구현을 위한 백엔드 시스템 개발 집중
-* **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`
+* **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`, `Cloudflare (R2, CDN)`, `Docker`
 
 ---
 
