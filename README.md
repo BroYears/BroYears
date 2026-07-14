@@ -54,7 +54,7 @@
 > **B2B 멘토·멘티 매칭 및 인턴십 시스템 플랫폼**
 * **역할**: 1인 총괄 개발
 * **개발 내용**: 전체 프로젝트 리딩 및 DB 아키텍처 설계 주도, 대규모 매칭 알고리즘 구현을 위한 백엔드 시스템 개발 집중
-* **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`, `Cloudflare (R2, CDN)`, `Docker`
+* **기술**: `Java 21`, `Spring Boot`, `Spring Batch`, `QueryDSL`, `PostgreSQL`, `Cloudflare (R2, CDN)`, `Docker`, `React`, `AWS (EC2, S3, MediaConvert)`
 
 ---
 
