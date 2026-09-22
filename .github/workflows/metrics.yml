@@ -1,0 +1,69 @@
+# 프로필 카드 생성 — lowlighter/metrics
+#
+# 왜 이걸 쓰나:
+#   기존 github-profile-summary-cards 는 외부 서비스가 공개 데이터만 볼 수 있어
+#   비공개 레포(AllTeachers·JobCatchers)의 커밋 약 1,790건이 통째로 빠졌고,
+#   언어 카드는 "레포당 대표 언어 1개"만 세서 JavaScript 처럼 항상 2등인 언어가
+#   영원히 0표였다. metrics 는 내 토큰으로 Actions 안에서 돌기 때문에 비공개 레포를
+#   포함하고, 언어는 바이트/커밋 기준으로 센다.
+#
+# 준비물(형년님이 직접):
+#   1. GitHub Settings → Developer settings → Personal access tokens (classic)
+#      → repo 스코프 체크하고 발급
+#   2. 이 레포 Settings → Secrets and variables → Actions → New repository secret
+#      이름: METRICS_TOKEN / 값: 발급받은 토큰
+#   토큰이 없으면 워크플로는 실패한다(공개 데이터만 쓰려면 secrets.GITHUB_TOKEN 로 바꿔도 됨).
+
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 20 * * *"   # 매일 UTC 20:00 = KST 오전 5시
+  workflow_dispatch:        # 수동 실행 버튼
+  push:
+    branches: [main]
+
+permissions:
+  contents: write           # 생성된 SVG 를 레포에 커밋해야 한다
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # ── 1. 종합 카드 — 커밋·활동·잔디 (비공개 레포 포함) ──────────────────
+      - name: 종합 통계
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: BroYears
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Seoul
+          # 잔디 달력 — 비공개 기여까지 합산된다
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # ── 2. 언어 카드 — 바이트 기준, 대표 언어 방식 아님 ──────────────────
+      - name: 언어 통계
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: BroYears
+          filename: metrics.plugin.languages.svg
+          template: classic
+          base: ""                        # 헤더 없이 언어 섹션만
+          config_timezone: Asia/Seoul
+          plugin_languages: yes
+          # indepth: 레포를 실제로 분석해 커밋 기준으로 센다.
+          # 이걸 켜야 JSP/HTML 안에 묻힌 코드가 아니라 실제 작성 언어에 가깝게 잡힌다.
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 1%
+          plugin_languages_other: yes
+          # 자동 생성물·의존성이 언어 통계를 왜곡하지 않게 제외
+          plugin_languages_skipped: BroYears, desktop-tutorial
