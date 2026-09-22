@@ -66,5 +66,8 @@ jobs:
           plugin_languages_threshold: 0%
           # Other 로 뭉뚱그리지 않는다 — 실제 언어 이름이 보여야 의미가 있다.
           plugin_languages_other: no
-          # 프로필 레포 자체는 SVG 뿐이라 통계에서 뺀다
-          plugin_languages_skipped: BroYears, desktop-tutorial
+          # 프로필 레포 자체는 SVG 뿐이라 통계에서 뺀다.
+          # allteachers_outsource 는 이전 사이트의 PHP 외주본(2026-03 가져옴)이라
+          # 내가 쓴 코드가 아니다. 넣어두면 PHP 6.19MB 가 1위(25.1%)로 잡혀
+          # 프로필이 PHP 개발자처럼 읽힌다. 레포는 참고용으로 남기고 통계에서만 뺀다.
+          plugin_languages_skipped: BroYears, desktop-tutorial, allteachers_outsource
