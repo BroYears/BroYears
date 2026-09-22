@@ -55,15 +55,16 @@ jobs:
           base: ""                        # 헤더 없이 언어 섹션만
           config_timezone: Asia/Seoul
           plugin_languages: yes
-          # indepth: 레포를 실제로 분석해 커밋 기준으로 센다.
-          # 이걸 켜야 JSP/HTML 안에 묻힌 코드가 아니라 실제 작성 언어에 가깝게 잡힌다.
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 7.5
-          plugin_languages_sections: most-used, recently-used
+          # indepth 는 껐다. 레포를 통째로 스캔하면서 빌드 산출물·의존성·바이너리까지
+          # "알 수 없는 언어"로 세는 바람에 Other 가 91.7%(11.9MB)를 차지하고
+          # Java 가 4.75% 로 밀렸다. GitHub 이 집계한 언어 바이트를 그대로 쓰는 편이 정확하다.
+          plugin_languages_indepth: no
+          # recently-used 는 indepth 전용이라 껐다(빈 섹션만 나왔다).
+          plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
-          plugin_languages_threshold: 1%
-          plugin_languages_other: yes
-          # 자동 생성물·의존성이 언어 통계를 왜곡하지 않게 제외
+          plugin_languages_threshold: 0%
+          # Other 로 뭉뚱그리지 않는다 — 실제 언어 이름이 보여야 의미가 있다.
+          plugin_languages_other: no
+          # 프로필 레포 자체는 SVG 뿐이라 통계에서 뺀다
           plugin_languages_skipped: BroYears, desktop-tutorial

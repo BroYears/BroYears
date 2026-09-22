@@ -10,14 +10,11 @@
 
 ## 📊 GitHub Stats
 
-<!-- 700px 너비의 공헌도 그래프 카드 -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BroYears&theme=tokyonight" alt="Profile Details" width="100%" />
+<!-- Actions(.github/workflows/metrics.yml)가 매일 생성해 커밋하는 카드.
+     외부 서비스가 아니라 내 토큰으로 집계해서 비공개 레포 기여까지 포함된다. -->
+<img src="./github-metrics.svg" alt="GitHub Metrics" width="100%" />
 
-<!-- 350px 너비의 카드 2개를 나란히 배치 -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BroYears&theme=tokyonight" alt="Stats" width="49.5%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BroYears&theme=tokyonight" alt="Languages" width="49.5%" />
-</p>
+<img src="./metrics.plugin.languages.svg" alt="Languages" width="100%" />
 
 </div>
 
