@@ -40,6 +40,16 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Seoul
+          config_animations: no
+          extras_css: |
+            h1, h2, h3 { color: #0f766e !important; }
+            path[fill="#9be9a8"] { fill: #99f6e4; }
+            path[fill="#40c463"] { fill: #2dd4bf; }
+            path[fill="#30a14e"] { fill: #14b8a6; }
+            path[fill="#216e39"] { fill: #0f766e; }
+            @media (prefers-color-scheme: dark) {
+              h1, h2, h3 { color: #5eead4 !important; }
+            }
           # 잔디 달력 — 비공개 기여까지 합산된다
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -54,6 +64,16 @@ jobs:
           template: classic
           base: ""                        # 헤더 없이 언어 섹션만
           config_timezone: Asia/Seoul
+          config_animations: no
+          extras_css: |
+            h1, h2, h3 { color: #0f766e !important; }
+            path[fill="#9be9a8"] { fill: #99f6e4; }
+            path[fill="#40c463"] { fill: #2dd4bf; }
+            path[fill="#30a14e"] { fill: #14b8a6; }
+            path[fill="#216e39"] { fill: #0f766e; }
+            @media (prefers-color-scheme: dark) {
+              h1, h2, h3 { color: #5eead4 !important; }
+            }
           plugin_languages: yes
           # indepth 는 껐다. 레포를 통째로 스캔하면서 빌드 산출물·의존성·바이너리까지
           # "알 수 없는 언어"로 세는 바람에 Other 가 91.7%(11.9MB)를 차지하고

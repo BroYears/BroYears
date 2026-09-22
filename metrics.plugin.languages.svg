@@ -136,4 +136,13 @@
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
     </foreignObject>
+<style>h1, h2, h3 { color: #0f766e !important; }
+path[fill="#9be9a8"] { fill: #99f6e4; }
+path[fill="#40c463"] { fill: #2dd4bf; }
+path[fill="#30a14e"] { fill: #14b8a6; }
+path[fill="#216e39"] { fill: #0f766e; }
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3 { color: #5eead4 !important; }
+}
+</style>
 </svg>
