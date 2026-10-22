@@ -28,14 +28,14 @@ path[fill="#216e39"] { fill: #0f766e; }
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="186.18115600132305" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="186.18115600132305" y="0" width="152.28228422865146" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="338.46344022997454" y="0" width="64.32108391540362" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="402.78452414537816" y="0" width="40.64927914080589" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="443.433803286184" y="0" width="11.828686499212017" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="455.26248978539604" y="0" width="1.8832069478763351" height="8" fill="#dad8d8"/>
-                    <rect mask="url(#languages-bar)" x="457.14569673327236" y="0" width="1.7683960153316343" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="458.91409274860405" y="0" width="1.0859072513959958" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="186.39610383556132" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="186.39610383556132" y="0" width="152.7267442647337" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="339.122848100295" y="0" width="64.27261601889494" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="403.39546411918997" y="0" width="40.21523102422892" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="443.61069514341887" y="0" width="11.702381206594703" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="455.31307635001355" y="0" width="1.8630982904504814" height="8" fill="#dad8d8"/>
+                    <rect mask="url(#languages-bar)" x="457.176174640464" y="0" width="1.7495132952430907" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="458.9256879357071" y="0" width="1.0743120642928488" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -47,8 +47,8 @@ path[fill="#216e39"] { fill: #0f766e; }
                                 Java
                             </div>
                             <small>
-                                <div>6.66 MB</div>
-                                <div>40.47%</div>
+                                <div>6.74 MB</div>
+                                <div>40.52%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -59,8 +59,8 @@ path[fill="#216e39"] { fill: #0f766e; }
                                 CSS
                             </div>
                             <small>
-                                <div>2.30 MB</div>
-                                <div>13.98%</div>
+                                <div>2.32 MB</div>
+                                <div>13.97%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -72,7 +72,7 @@ path[fill="#216e39"] { fill: #0f766e; }
                             </div>
                             <small>
                                 <div>422 kB</div>
-                                <div>2.57%</div>
+                                <div>2.54%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -97,8 +97,8 @@ path[fill="#216e39"] { fill: #0f766e; }
                                 TypeScript
                             </div>
                             <small>
-                                <div>5.44 MB</div>
-                                <div>33.1%</div>
+                                <div>5.52 MB</div>
+                                <div>33.2%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -110,7 +110,7 @@ path[fill="#216e39"] { fill: #0f766e; }
                             </div>
                             <small>
                                 <div>1.45 MB</div>
-                                <div>8.84%</div>
+                                <div>8.74%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -134,7 +134,7 @@ path[fill="#216e39"] { fill: #0f766e; }
                             </div>
                             <small>
                                 <div>38.8 kB</div>
-                                <div>0.24%</div>
+                                <div>0.23%</div>
                             </small>
                         </div>
                     </section>
